@@ -1,8 +1,8 @@
 import * as firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD7CGZ5dfbObk7eD1sdHgNLcULs8Mccg3Q",
-  authDomain: "my-game-76ab7.firebaseapp.com",
+  apiKey: API_KEY,
+  authDomain: "yourGame.firebaseapp.com",
   databaseURL: "https://my-game-76ab7.firebaseio.com",
   projectId: "my-game-76ab7",
   storageBucket: "my-game-76ab7.appspot.com",
