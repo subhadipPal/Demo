@@ -1,0 +1,28 @@
+.App {
+  min-height: 100vh;
+  background-color: #f1f1f1;
+  background-size: cover;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+position: sticky;
+  position: -webkit-sticky;
+}
+
+.bodyContainer {
+  margin: 10px;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.rightside {
+  margin: 5px;
+  padding: 5px;
+}

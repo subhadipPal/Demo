@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component test should render with given state from Redux store 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-header"
+  >
+    <div
+      className="App-header-text"
+    >
+      Game Ratings
+    </div>
+  </div>
+  <div
+    className="App-content"
+  >
+    <div
+      className="list-buttons-container"
+    >
+      <button
+        className="header-button"
+        name="sortAscButton"
+      >
+        Sort by Ratings (Ascending)
+      </button>
+      <button
+        className="header-button"
+        name="sortDescButton"
+      >
+        Sort by Ratings (Decending)
+      </button>
+    </div>
+    Loading...
+  </div>
+</div>
+`;

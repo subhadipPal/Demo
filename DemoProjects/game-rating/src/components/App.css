@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #f1f1f1;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App-header-text {
+  font-size: 24px;
+  color: white;
+  margin-left: 15px;
+}
+.App-content {
+  margin: 10px;
+}
+.games-grid {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 20px;
+  width: 100%;
+}
+.grid-item {
+  background-color: #fff;
+  border: 1px solid #555;
+  padding: 20px;
+  text-align: center;
+}
+.game-title {
+  font-size: 20px;
+  font-style: italic;
+}
+.game-rating {
+  border-top: 2px dashed #f1f1f1;
+  margin-top: 10px;
+  padding: 10px;
+}
+.field-dropdown {
+  margin: 10px 0px 0px 5px;
+  color: #00b1c7;
+  font-size: 14px;
+  outline: 0;
+  border-width: 0 0 2px;
+}
+.dropdown-label {
+  color: crimson;
+}
+
+.header-button {
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  background: #555 none;
+  border-radius: 5px;
+}
+.header-button:hover {
+  background: #ccc none;
+  color: #555;
+}
