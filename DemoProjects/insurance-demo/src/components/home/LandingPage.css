@@ -1,0 +1,46 @@
+.app {
+  min-height: 100vh;
+  background-color: #cefaffc7;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+  margin: -8px;
+}
+.app .header {
+  background-color: #5e6adc;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  justify-content: space-between;
+}
+.app .header .text {
+  font-size: 24px;
+  color: white;
+}
+.app .header i {
+  font-size: 1.2em;
+  color: #ffe21f;
+  margin-right: 20px;
+  text-shadow: 2px 2px 4px #353c81;
+}
+.app .header i:hover {
+  color: black;
+  cursor: pointer;
+}
+.app .header i .badge {
+  position: absolute;
+  top: 12px;
+  right: 26px;
+  padding: 0px 5px;
+  border-radius: 50%;
+  background: #db2828;
+  color: white;
+  font-size: 14px;
+}
+.app .body {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto;
+  margin: 50px;
+}

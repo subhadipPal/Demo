@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component test should render with given state from Redux store 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="header"
+  >
+    <div
+      className="text"
+    >
+      Insurance modules
+    </div>
+    <i
+      className="shopping cart icon"
+      onClick={[Function]}
+    >
+      <span
+        className="badge"
+      >
+        0
+      </span>
+    </i>
+  </div>
+  <div
+    className="body"
+  />
+</div>
+`;

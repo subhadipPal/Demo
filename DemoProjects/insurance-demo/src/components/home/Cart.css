@@ -1,0 +1,39 @@
+.cart-table {
+  width: 100%;
+  background: #fff;
+  margin: 1em 0;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: none;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.cart-table i {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cart-table thead th {
+  cursor: auto;
+  background: #f9fafb;
+  text-align: inherit;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0.92857143em 0.78571429em;
+  vertical-align: inherit;
+  font-style: none;
+  font-weight: 700;
+  text-transform: none;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  border-left: none;
+}
+
+.cart-table td {
+  padding: 0.78571429em 0.78571429em;
+  text-align: inherit;
+}
+
+.cart-footer {
+  border: 1px solid #ccc !important;
+}
