@@ -1,3 +1,4 @@
+// The app JS file
 import React from 'react';
 
 function App() {
